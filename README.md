@@ -50,3 +50,18 @@ git push <name> <branch>
 ```shell
 git pull <name> <branch>
 ```
+
+### Generar una nueva rama (branch)
+
+```shell
+git branch <name>
+```
+
+```shell
+git checkout -b <name>
+```
+### Cambiar de rama (branch) o activar
+
+```shell
+git checkout <name>
+```
