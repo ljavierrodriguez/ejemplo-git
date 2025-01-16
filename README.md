@@ -44,3 +44,9 @@ git remote add <name> <url>
 ```shell
 git push <name> <branch>
 ```
+
+### Bajar cambios al repositorio local desde el repositorio remoto
+
+```shell
+git pull <name> <branch>
+```
