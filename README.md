@@ -77,3 +77,19 @@ git merge <branch>
 ```shell
 git branch -D <name>
 ```
+
+### Deshacer cambios guardados (commit)
+
+Mantengo los cambios:
+```shell
+git reset --soft HEAD~1
+```
+
+Elimino los cambios:
+```shell
+git reset --hard HEAD~1
+```
+
+```shell
+git checkout <name>
+```
