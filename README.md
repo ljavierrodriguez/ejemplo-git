@@ -65,3 +65,15 @@ git checkout -b <name>
 ```shell
 git checkout <name>
 ```
+
+### Unir ramas (branch) nota: une los cambios a la rama activa actualmente
+
+```shell
+git merge <branch>
+```
+
+### Eliminar una rama (branch)
+
+```shell
+git branch -D <name>
+```
